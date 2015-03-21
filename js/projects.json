@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Music Drop",
+    "url": "musicdrop.leftfieldlabs.com",
+    "details": "angularjs, node.js, 3d printing",
+    "image": "music_drop.jpg"
+  },
+  {
+    "title": "Left-a-Sketch",
+    "url": "leftasketch.leftfieldlabs.com",
+    "details": "node.js, node-webkit, Arduino",
+    "image": "left2.jpg"
+  },
+  {
+    "title": "VetsGo511",
+    "url": "vetsgo511.com",
+    "details": "angularjs, Django, social authentication, Google Maps API",
+    "image": "vetsgo511.jpg"
+  },
+  {
+    "title": "Google Chrome",
+    "url": "chrome.google.com",
+    "details": "Google Closure, ThreeJs, custom backend",
+    "image": "chrome1.jpg"
+  },
+  {
+    "title": "Google Edu",
+    "url": "google.com/edu",
+    "details": "Google Closure, custom backend, Google Maps API",
+    "image": "enterprise-3.png"
+  },
+  {
+    "title": "Google Zeitgeist 2012 Resolutions",
+    "url": "google.com/zeitgeist/2012/resolutions",
+    "details": "Google Closure, Maps and Translation APIs",
+    "image": "zeitgeist.png"
+  },
+  {
+    "title": "Google Now",
+    "url": "google.com/now",
+    "details": "Google Closure, HTML5 video, CSS animation",
+    "image": "now.png"
+  },
+  {
+    "title": "Google Cloud Platform",
+    "url": "cloud.google.com",
+    "details": "angularjs, App Engine, BigQuery API",
+    "image": "cloud.png"
+  },
+  {
+    "title": "Google Fiber",
+    "url": "google.com/fiber",
+    "details": "Google Closure, custom backend, BigQuery API",
+    "image": "fiber.png"
+  }
+
+]

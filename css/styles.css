@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: url("../img/dark_wall/dark_wall_@2X.png");
+  font-family: "Inconsolata";
+  color: #00cc00;
+}
+
+h3 {
+  margin: 0;
+}
+
+.header {
+  height: 60px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.command-prompt {
+  background-color: #00cc00;
+  height: 17px;
+  width: 13px;
+  -webkit-animation-duration: 2s;
+}
+
+.project-tech {
+  margin: 0;
+  font-size: 13px;
+}
+
+.project-link, .project-link:active, .project-link:visited {
+  margin: 0;
+  color: inherit;
+  text-decoration: none;
+  font-style: italic;
+  float: right;
+  margin-top: 10px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  max-width: 100%;
+  width: 978px;
+  margin: 0 auto;
+}
+
+.project-item {
+  width: 30%;
+  height: 200px;
+  background-size: cover;
+  background-position: center top;
+  color: #00cc00;
+  margin: 10px auto;
+  cursor: help;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.project-info {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 10px;
+}
+
+.project-details {
+  max-height: 0;
+  transition: max-height .25s ease-in-out;
+  overflow: hidden;
+}
+
+.project-item:hover .project-details {
+  max-height: 200px;
+  transition: max-height .25s ease-in-out;
+}
